@@ -10,5 +10,5 @@ def get_device_name(mac_address, timeout=10):
 	return name
 
 if __name__ == "__main__":
-	mac = "8C:79:F5:21:C2:76"
+	mac = "AC:F2:3C:26:63:DA"
 	get_device_name(mac) 

@@ -2,7 +2,7 @@ import bluetooth
 def scan_bluetooth_devices():
 	try:
 		print("Scanning for Bluetooth devices...")
-		nearby_devices = bluetooth.discover_devices(lookup_names=True, duration=10)
+		nearby_devices = bluetooth.discover_devices(lookup_names=True)
 		print(f"Found {len(nearby_devices)} devices.")
 		for addr, name in nearby_devices:
 			print(f"Device: {name}, Address: {addr}")
